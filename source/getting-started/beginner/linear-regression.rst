@@ -222,7 +222,7 @@ NumPy 中的 :func:`numpy.dot` 接口的确支持 n 维数组与 1 维数组（�
    因此 :func:`.functional.dot` 专指向量点积，不支持其它形状的输入。
 
    这也意味着，同名或者相似命名的接口不代表完全一样的定义实现逻辑。
-   我们还可以参考 MARLAB 中的 `Dot product
+   我们还可以参考 MATLAB 中的 `Dot product
    <https://ww2.mathworks.cn/help/matlab/ref/dot.html?lang=en>`_
    会发现定义也不和 NumPy 完全一样。
 
