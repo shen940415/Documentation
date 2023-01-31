@@ -59,7 +59,7 @@ MegEngine 快速上手
    from megengine.data.dataset import MNIST
 
    from os.path import expanduser
-   DATA_PATH = expanduser("~/data/datasets/MNIST")
+   MNIST_DATA_PATH = expanduser("~/data/datasets/MNIST")
 
    train_dataset = MNIST(MNIST_DATA_PATH, train=True)
    test_dataset = MNIST(MNIST_DATA_PATH, train=False)
@@ -252,7 +252,7 @@ MegEngine 快速上手
        image = np.array(255 - image)
        return image
 
-   image = cv2.imread("/data/handwrittern-digit.png")
+   image = cv2.imread("home/megstudio/repofiles/handwrittern-digit.png")
    processed_image = process(image)
 
 .. dropdown:: :fa:`question,mr-1` 这里为什么需要进行预处理
